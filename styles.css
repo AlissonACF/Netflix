@@ -23,3 +23,14 @@ ul {
     width: 100%;
     z-index: 1000; /*garante que fique acima de tudo*/
 }
+.main-nav ul{
+    display: flex;
+}.main-nav ul li{
+     margin-right: 20px;
+}
+.main-nav ul li a{
+    transition: color 0.3s ease;
+}
+.main-nav ul li a:hover{
+    color: #b3b3b3;
+}
